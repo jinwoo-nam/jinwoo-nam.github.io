@@ -1,49 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!--
+      If you are serving your web app in a path other than the root, change the
+      href value below to reflect the base path you are serving from.
 
-  <base href="/web/">
+      The path provided below has to start and end with a slash "/" in order for
+      it to work correctly.
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="instapay admin application">
+      For more details:
+      * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
 
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="instapay_admin">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+      This is a placeholder for base href that will be replaced by the value of
+      the `--base-href` argument provided to `flutter build`.
+    -->
+    <base href="/web/">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="instapay admin application">
 
-  <title>instapay_admin</title>
-  <link rel="manifest" href="manifest.json">
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="instapay_admin">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <script>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png"/>
+
+    <title>instapay_admin</title>
+    <link rel="manifest" href="manifest.json">
+
+    <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '2326624424';
-  </script>
-  <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer></script>
-  <style>
+    var serviceWorkerVersion = '4092295900';
+
+
+    </script>
+    <!-- This script adds the flutter initialization JS code -->
+    <script src="flutter.js" defer></script>
+    <style>
       .container {
         width: 100vw;
         height: 100vh;
         display: flex; /* Default Axis is X*/
         justify-content: center; /* Main Axis */
         align-items: center; /* Cross Axis */
+        position:static;
       }
       .indicator{
-        width: 50vw;
+        width: 200px;
+      }
+      .indicator2{
+        width: 80px;
       }
     </style>
 </head>
-<body style="overflow: hidden">
+<body style="overflow: hidden" bgcolor="#212332">
 <div id="loading_indicator" class="container">
-  <img class="indicator" src="./assets/loading.gif"/>
+    <img class="indicator" src="web/asset/home-logo@2x.png"/>
+    <p><img class="indicator2" src="web/asset/loading_progress.gif"/></div>
 </div>
-  <script>
+<script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
@@ -56,8 +75,10 @@
         return appRunner.runApp();
       });
     });
-  </script>
-  <script>
+
+
+</script>
+<script>
       window.onload = function () {
       setTimeout(function () {
           var loadingIndicator = document.getElementById("loading_indicator");
@@ -66,6 +87,8 @@
           }
         }, 10000);
       };
-  </script>
+
+
+</script>
 </body>
 </html>
