@@ -67696,7 +67696,7 @@ p=(q==null?$.aJ=$.bU():q).bO(0,"[DEFAULT]")
 A.bx(p,$.bK(),!1)
 s=2
 return A.W(A.dc(new A.bC(p)).em("Click_BUYINC"),$async$$0)
-case 2:A.c8("insta_coin/#/getInstaCoin/basicInfo")
+case 2:A.c8("#/getInstaCoin/basicInfo")
 return A.O(null,r)}})
 return A.P($async$$0,r)},
 $S:4}
