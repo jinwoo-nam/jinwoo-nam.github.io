@@ -67427,7 +67427,7 @@ s.toString
 this.a.r=s},
 $S:0}
 A.a9B.prototype={
-$0(){A.bR("insta_coin/#/getInstaCoin/termsK")},
+$0(){A.bR("#/getInstaCoin/termsK")},
 $S:0}
 A.a9C.prototype={
 $1(a){if(a.length===0)return"This field is required."
@@ -67443,7 +67443,7 @@ s.toString
 this.a.r=s},
 $S:0}
 A.a9E.prototype={
-$0(){A.bR("insta_coin/#/getInstaCoin/termsK")},
+$0(){A.bR("#/getInstaCoin/termsK")},
 $S:0}
 A.a9G.prototype={
 $0(){var s=0,r=A.Q(t.H),q,p=this,o,n
