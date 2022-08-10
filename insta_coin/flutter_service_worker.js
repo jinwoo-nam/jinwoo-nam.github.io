@@ -5,10 +5,10 @@ const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "cd6c12c37152cff7883cebb765e1232d",
 "favicon.ico": "50cc68ee22a1483410c0aeb981ec60bb",
-"index.html": "51eab2ad6707cc307855b01e1272de60",
-"/": "51eab2ad6707cc307855b01e1272de60",
+"index.html": "5a4856d57b95b9e016502f3f9bad8233",
+"/": "5a4856d57b95b9e016502f3f9bad8233",
 "asset/instacoin_meta.jpg": "62da73a20f1ee7f0e4d85a74f172a02b",
-"main.dart.js": "5e4f39e0f39978b4aed23978510aaa43",
+"main.dart.js": "719413b42d01fb505957d2d4edadfdba",
 "flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "icons/Icon-maskable-192_.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-192_.png": "ac9a721a12bbc803b44f645561ecb1e1",
