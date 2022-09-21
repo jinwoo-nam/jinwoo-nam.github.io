@@ -38125,7 +38125,7 @@ k=t.z
 s=7
 return A.S(J.aCy(m,"https://api.instapay.kr/v3/beans",A.as(["p",a,"g",b],t.N,k),k),$async$j5)
 case 7:n=d
-k=J.bk(n.a,"qr")
+k=J.bk(n.a,"re")
 q=new A.ew(k,t.jO)
 s=1
 break
