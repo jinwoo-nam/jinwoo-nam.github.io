@@ -1,11 +1,11 @@
 {
-    "name": "instapay_admin",
-    "short_name": "instapay_admin",
+    "name": "beans_instapay",
+    "short_name": "beans_instapay",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "instapay admin application",
+    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
