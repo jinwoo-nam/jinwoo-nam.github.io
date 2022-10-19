@@ -38211,19 +38211,25 @@ return A.I(null,r)}})
 return A.J($async$mu,r)}}
 A.a1f.prototype={
 j9(a){return this.Rr(a)},
-Rr(a){var s=0,r=A.K(t.t0),q,p,o,n,m,l,k,j,i
+Rr(a){var s=0,r=A.K(t.t0),q,p,o,n,m,l,k,j,i,h,g,f
 var $async$j9=A.L(function(b,c){if(b===1)return A.H(c,r)
-while(true)switch(s){case 0:j=new A.f2(Date.now(),!1)
-i=A.a([],t.H7)
-for(p=new A.cr(a,a.gp(a)),o=t.N,n=t.z,m=A.j(p).c;p.t();){l=p.d
-if(l==null)l=m.a(l)
-i.push(A.ar(["name",l.a.b,"count",l.b],o,n))}p=$.dL
-k=(p==null?$.dL=$.kg():p).io(0,"[DEFAULT]")
-A.fH(k,$.ia(),!1)
-p=A.aEN(new A.f4(k))
+while(true)switch(s){case 0:g=new A.f2(Date.now(),!1)
+f=A.a([],t.H7)
+for(p=new A.cr(a,a.gp(a)),o=t.N,n=t.z,m=A.j(p).c,l=0;p.t();){k=p.d
+if(k==null)k=m.a(k)
+j=k.a
+k=k.b
+i=j.c*k*((100-j.d)/100)
+l+=i
+f.push(A.ar(["name",j.b,"count",k,"price",i],o,n))}p=$.dL
+h=(p==null?$.dL=$.kg():p).io(0,"[DEFAULT]")
+A.fH(h,$.ia(),!1)
+p=A.aEN(new A.f4(h))
 m=p.c
+p=A.aIB(p,(m==null?p.c=A.av3().Co(p.d):m).MX("cart_info"))
+m=l>2e4?0:2500
 s=3
-return A.T(A.aIB(p,(m==null?p.c=A.av3().Co(p.d):m).MX("cart_info")).J(0,A.ar(["data",i,"timestamp",""+A.awg(j)+"/"+A.awe(j)+"/"+A.awb(j)+" "+A.awc(j)+":"+A.awd(j)+":"+A.awf(j)],o,n)),$async$j9)
+return A.T(p.J(0,A.ar(["data",f,"timestamp",""+A.awg(g)+"/"+A.awe(g)+"/"+A.awb(g)+" "+A.awc(g)+":"+A.awd(g)+":"+A.awf(g),"\ubc30\uc1a1\ub8cc",m],o,n)),$async$j9)
 case 3:q=c
 s=1
 break
